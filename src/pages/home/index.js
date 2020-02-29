@@ -9,15 +9,12 @@ const Home = props => {
 			<div className="center">
 				<Typography variant="h1">Look Inna Book</Typography>
 				<Typography variant="h2">Online Bookstore</Typography>
-				<div style={{marginTop:"64px"}}>
-				<Typography variant="h3">Log in as:</Typography>
-				</div>
 				<div className="buttonContainer">
-					<Button variant="contained" color="primary">
-						Buyer
+					<Button variant="contained" color="primary" href="/login">
+						Login
 					</Button>
-					<Button variant="contained" color="secondary">
-						Seller
+					<Button variant="contained" color="secondary" href="/register">
+						Register
 					</Button>
 				</div>
 			</div>

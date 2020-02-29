@@ -1,4 +1,4 @@
-.login {
+.register {
     height: 100%;
     width: 100%;
     display:flex;
@@ -8,25 +8,25 @@ h1 {
     text-shadow: -2px 1px rgba(black, 0.1);
 }
 
-.login .center {
-    margin: auto;
+.register .center {
+    margin-top: 128px;
     width: 80%;
     text-align: center;
 }
 
 form {
     margin: auto;
-    margin-top: 128px;
+    margin-top: 64px;
     display: flex;
     flex-direction: column;
     width: 20rem;
 }
 
 
-.login .buttonContainer {
+.register .buttonContainer {
     margin-top: 82px;
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
