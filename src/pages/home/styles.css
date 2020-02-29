@@ -1,0 +1,25 @@
+.home {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    background-image: url("../../assets/images/background.png");
+    background-position: 93% 50%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: -2px 1px rgba(black, 0.1);
+}
+
+.center {
+    margin: auto;
+    width: 70%;
+}
+
+.buttonContainer {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+}
