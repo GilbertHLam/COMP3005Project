@@ -13,7 +13,11 @@ const Home = props => {
 					<Button variant="contained" color="primary" href="/login">
 						Login
 					</Button>
-					<Button variant="contained" color="secondary" href="/register">
+					<Button
+						variant="contained"
+						color="secondary"
+						href="/register"
+					>
 						Register
 					</Button>
 				</div>

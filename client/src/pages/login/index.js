@@ -9,14 +9,14 @@ const Login = props => {
 		<div className="login">
 			<div className="center">
 				<Typography variant="h1">Look Inna Book</Typography>
-                <form>
+				<form>
 					<TextField
 						required
 						id="login"
 						label="User Name"
 						defaultValue=""
 					/>
-                    <br></br>
+					<br></br>
 					<TextField
 						required
 						id="password"
@@ -32,7 +32,7 @@ const Login = props => {
 							Login as seller
 						</Button>
 					</div>
-                    </form>
+				</form>
 			</div>
 		</div>
 	);
