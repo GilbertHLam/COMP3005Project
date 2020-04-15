@@ -53,12 +53,11 @@ const BookList = props => {
 				<ListItem alignItems="flex-start">
 					<ListItemAvatar>
 						<Avatar
-							alt="Travis Howard"
-							src="/static/images/avatar/2.jpg"
+							alt="The Last Wish"
 						/>
 					</ListItemAvatar>
 					<ListItemText
-						primary="Summer BBQ"
+						primary="The Last Wish"
 						secondary={
 							<React.Fragment>
 								<Typography
@@ -67,10 +66,10 @@ const BookList = props => {
 									className="inline"
 									color="textPrimary"
 								>
-									to Scott, Alex, Jennifer
+									Andrej Sapkowski
 								</Typography>
 								{
-									" — Wish I could come, but I'm out of town this…"
+									" - Geralt is a Witcher, a man whose magic powers, enhanced by long training and a mysterious elixir, have ma..."
 								}
 							</React.Fragment>
 						}
@@ -80,12 +79,11 @@ const BookList = props => {
 				<ListItem alignItems="flex-start">
 					<ListItemAvatar>
 						<Avatar
-							alt="Cindy Baker"
-							src="/static/images/avatar/3.jpg"
+							alt="Lord of the Rings"
 						/>
 					</ListItemAvatar>
 					<ListItemText
-						primary="Oui Oui"
+						primary="The Lord of the Rings"
 						secondary={
 							<React.Fragment>
 								<Typography
@@ -94,10 +92,10 @@ const BookList = props => {
 									className="inline"
 									color="textPrimary"
 								>
-									Sandra Adams
+									JRR Tolkien
 								</Typography>
 								{
-									" — Do you have Paris recommendations? Have you ever…"
+									" — All three parts of the epic masterpiece The Lord of the Rings – The Fellowship of the Ring, The Two Towers & T..."
 								}
 							</React.Fragment>
 						}
@@ -107,12 +105,11 @@ const BookList = props => {
 				<ListItem alignItems="flex-start">
 					<ListItemAvatar>
 						<Avatar
-							alt="Cindy Baker"
-							src="/static/images/avatar/3.jpg"
+							alt="Cracking the Coding Interview"
 						/>
 					</ListItemAvatar>
 					<ListItemText
-						primary="Oui Oui"
+						primary="Cracking the Coding Interview"
 						secondary={
 							<React.Fragment>
 								<Typography
@@ -121,10 +118,10 @@ const BookList = props => {
 									className="inline"
 									color="textPrimary"
 								>
-									Sandra Adams
+									Gayle Laakmann McDowell 
 								</Typography>
 								{
-									" — Do you have Paris recommendations? Have you ever…"
+									" — I am not a recruiter. I am a software engineer. And as such, I know what it's like to be asked to whip up brillia..."
 								}
 							</React.Fragment>
 						}
@@ -134,12 +131,11 @@ const BookList = props => {
 				<ListItem alignItems="flex-start">
 					<ListItemAvatar>
 						<Avatar
-							alt="Cindy Baker"
-							src="/static/images/avatar/3.jpg"
+							alt="Harry Potter and the Philosopher's Stone"
 						/>
 					</ListItemAvatar>
 					<ListItemText
-						primary="Oui Oui"
+						primary="Harry Potter and the Philosopher's Stone"
 						secondary={
 							<React.Fragment>
 								<Typography
@@ -148,10 +144,10 @@ const BookList = props => {
 									className="inline"
 									color="textPrimary"
 								>
-									Sandra Adams
+									JK Rowling
 								</Typography>
 								{
-									" — Do you have Paris recommendations? Have you ever…"
+									" — Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle,..."
 								}
 							</React.Fragment>
 						}
@@ -161,12 +157,11 @@ const BookList = props => {
 				<ListItem alignItems="flex-start">
 					<ListItemAvatar>
 						<Avatar
-							alt="Cindy Baker"
-							src="/static/images/avatar/3.jpg"
+							alt="A Game of Thrones: A Song of Ice and Fire"
 						/>
 					</ListItemAvatar>
 					<ListItemText
-						primary="Oui Oui"
+						primary="A Game of Thrones: A Song of Ice and Fire"
 						secondary={
 							<React.Fragment>
 								<Typography
@@ -175,10 +170,10 @@ const BookList = props => {
 									className="inline"
 									color="textPrimary"
 								>
-									Sandra Adams
+									George RR Martin
 								</Typography>
 								{
-									" — Do you have Paris recommendations? Have you ever…"
+									" — Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to Ki..."
 								}
 							</React.Fragment>
 						}
