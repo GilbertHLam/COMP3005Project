@@ -11,11 +11,13 @@ import {
 	DialogTitle
 } from "@material-ui/core";
 import { login } from "../../utils/apiCalls";
+import { useStateValue } from "../../state";
 
 const Login = props => {
 	const [username, setUsername] = React.useState("");
 	const [password, setPassword] = React.useState("");
 	const [showDialog, setShowDialog] = React.useState(false);
+	const { dispatch } = useStateValue();
 
 	const onLoginClick = role => {
 		const body = {
@@ -29,9 +31,15 @@ const Login = props => {
 				return res.json();
 			})
 			.then(response => {
-				console.log(response);
+				dispatch({
+					type: "setUsername",
+					credentials: {
+						username: username.toLowerCase()
+					}
+				});
+				localStorage.setItem("username", username.toLowerCase());
 				setTimeout(() => {
-					window.location.href = "http://localhost:3000/browse";
+					window.location.href = role === "Buyer" ? "http://localhost:3000/browse" : "http://localhosy:3000/manage";
 				}, 500);
 			})
 			.catch(err => {
@@ -81,10 +89,18 @@ const Login = props => {
 						onChange={event => setPassword(event.target.value)}
 					/>
 					<div className="buttonContainer">
-						<Button variant="contained" color="primary" onClick={() => onLoginClick("Buyer")}>
+						<Button
+							variant="contained"
+							color="primary"
+							onClick={() => onLoginClick("Buyer")}
+						>
 							Login as buyer
 						</Button>
-						<Button variant="contained" color="secondary" onClick={() => onLoginClick("Seller")}>
+						<Button
+							variant="contained"
+							color="secondary"
+							onClick={() => onLoginClick("Seller")}
+						>
 							Login as seller
 						</Button>
 					</div>

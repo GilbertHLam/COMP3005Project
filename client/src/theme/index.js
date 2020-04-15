@@ -11,6 +11,14 @@ const theme = createMuiTheme({
 			}
 		},
 		MuiTypography: {
+			h4: {
+				fontFamily: ["IBM Plex Serif"].join(","),
+				fontWeight: "600",
+				fontStyle: "italic",
+				fontSize: "2.5rem",
+				textShadow: "-4px 2px #00000050",
+				flexGrow: "1"
+			},
 			h3: {
 				fontFamily: ["Open Sans"].join(","),
 				fontWeight: "100",
